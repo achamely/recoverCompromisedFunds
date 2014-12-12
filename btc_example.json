@@ -1,0 +1,5 @@
+{
+  "from_private_key": "{{Private key of address to send btc from}}",
+  "transaction_from": "{{Address to send BTC from}}",
+  "transaction_to": "{{Address that has been compromised}}"
+}

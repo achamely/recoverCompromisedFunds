@@ -1,0 +1,9 @@
+{
+  "from_private_key": "{{Private key of compromised address}}",
+  "transaction_from": "{{Address of compromised address}}",
+  "currency_id":  <int number of currency to move>,
+  "hashtospend": "{{Hash created by makeBTCsend.py}}",
+  "htsindex":  <index of btc funding from previous hash above> ex: 0,
+  "msc_send_amt": <amount to send/move in whole satashi values (convert divisible properties)>  ex: 150000,
+  "transaction_to": "{{New Address to recover funds too}}"
+}
